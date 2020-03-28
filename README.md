@@ -1,4 +1,6 @@
 # Xteam245
+Team Members:
+Gabriel Kim Wilkinson, Haozhan Yuan, Russell Cheng, Nada Elkordi
 
 "Classic Solitaire Game"
 
