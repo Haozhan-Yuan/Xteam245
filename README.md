@@ -24,3 +24,21 @@ A full card set is psrtitioned as follows:
 Our application will uses a series of classes representing the different piles of cards in a solitaire game. These utilize a base Pile class, which the additional classes extend, as well as a Card class which models cards and provides information on their suit, value, and current status.
 
 The GUI of this program will provided players with a visually pleasing interface for the game.
+
+rule description:
+1. Each suit in the foundation should start with the lowest rank (1).
+a. Cards are added to the foundation pile in ascending order of their
+rank.
+2. Only a face down card from the tableau can be opened with a click to be
+face up.
+3. You can move a face up card from one tableau pile (Card 1) to another
+tableau pile with (Card 2) if the following conditions apply.
+ (1) Card 1 is of different color from Card 2
+ (2) Card 1 is of a rank that is directly less than the rank of Card 2.
+4. If a tableau pile is empty, you can move a face up King card to this tableau
+pile.
+5. When there are no moves possible among the foundation piles, the player
+can open a card from the hand pile into the waste pile and put it under a
+tableau pile.
+6. A card can go directly from the hand pile to any of the foundation piles.
+7. The game ends when all cards are sorted into the foundation pile.
