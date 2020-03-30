@@ -15,7 +15,7 @@ The game is won when the player builds four piles for each suit: Hearts, Diamond
 
 The sorted piles are called foundations
 
-A full card set is psrtitioned as follows: 
+A full card set is partitioned as follows: 
 1- The Tableau: Seven piles that start face down 
 2- The Foundation: Initially, empty four piles for each suite
 3- The Hand Pile: The remaining cards that are not in the Tableau. Initially face down.
@@ -25,7 +25,7 @@ Our application will uses a series of classes representing the different piles o
 
 The GUI of this program will provided players with a visually pleasing interface for the game.
 
-rule description:
+Description of Rules:
 1. Each suit in the foundation should start with the lowest rank (1).
 a. Cards are added to the foundation pile in ascending order of their
 rank.
@@ -42,3 +42,5 @@ can open a card from the hand pile into the waste pile and put it under a
 tableau pile.
 6. A card can go directly from the hand pile to any of the foundation piles.
 7. The game ends when all cards are sorted into the foundation pile.
+
+Note: This repository contains a PDF Document with further details of the design specification, as well as a PowerPoint presentation providing the information in an alternate format.
