@@ -45,10 +45,15 @@ tableau pile.
 
 Milestones:
 Milestone 1: Initialize GUI class (Taken from a GUI library) to draw Game window. Assemble library images and other prerequisites as needed
+
 Milestone 2: Implement classes Card, Pile, FoundationPile, WastePile, HandPile, and Tableau
+
 Milestone 3: Implement the game logic in class SolitaireGame(class with the main method)
+
 Milestone 4: Implement graphical changes and events based on user input
+
 Milestone 5: Output message: Result of the game displayed as a victory/defeat message 
+
 
 
 Note: This repository contains a PDF Document with further details of the design specification, as well as a PowerPoint presentation providing the information in an alternate format.
