@@ -7,7 +7,7 @@ Gabriel Kim Wilkinson, Haozhan Yuan, Russell Cheng, Nada Elkordi
 Solitaire is a single-player game in which a player sorts cards into 'piles' based upon their suit and value. The objective is to eventually sort all cards into a pile, thereby completing the game.
 
 Cards are ranked as follows:
-King(high),Queen, Jack, 10, 9, 8, 7, 6, 5, 4, 3, 2, (low)
+King(high),Queen, Jack, 10, 9, 8, 7, 6, 5, 4, 3, 2, Ace(low)
 
 Cards have two colors: red and black
 
