@@ -44,6 +44,7 @@ tableau pile.
 7. The game ends when all cards are sorted into the foundation pile.
 
 Milestones:
+
 Milestone 1: Initialize GUI class (Taken from a GUI library) to draw Game window. Assemble library images and other prerequisites as needed
 
 Milestone 2: Implement classes Card, Pile, FoundationPile, WastePile, HandPile, and Tableau
