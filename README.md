@@ -16,7 +16,7 @@ The game is won when the player builds four piles for each suit: Hearts, Diamond
 The sorted piles are called foundations
 
 A full card set is partitioned as follows: 
-1- The Tableau: Seven piles that start face down 
+1- The Tableau: Seven piles that start face down, with the top card face up. The seven piles are of size 1 through 7, ascending. 
 2- The Foundation: Initially, empty four piles for each suite
 3- The Hand Pile: The remaining cards that are not in the Tableau. Initially face down.
 4- The waste pile: Contains cards that cannot be placed in any of the above piles.
@@ -34,7 +34,7 @@ face up.
 3. You can move a face up card from one tableau pile (Card 1) to another
 tableau pile with (Card 2) if the following conditions apply.
  (1) Card 1 is of different color from Card 2
- (2) Card 1 is of a rank that is directly less than the rank of Card 2.
+ (2) Card 1 is of a rank that is one less than the rank of Card 2.
 4. If a tableau pile is empty, you can move a face up King card to this tableau
 pile.
 5. When there are no moves possible among the foundation piles, the player
