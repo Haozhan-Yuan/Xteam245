@@ -42,10 +42,12 @@ can open a card from the hand pile into the waste pile and put it under a
 tableau pile.
 6. A card can go directly from the hand pile to any of the foundation piles.
 7. The game ends when all cards are sorted into the foundation pile.
+ 
+The Data Structure that will be used in this project is:
+1- Stack ADT: every pile of cards will be represented by a stack
+2- Integers variable: Card Dimensions(width and height)
+3- Enum variables for Card suit, rank, and color.
 
-Milestones:
-
-Milestone 1: Initialize GUI class (Taken from a GUI library) to draw Game window. Assemble library images and other prerequisites as needed. (Just like what we did in COM SCI 300 Project 2)
 
 Milestone 2: Implement classes Card, Pile, FoundationPile, WastePile, HandPile, and Tableau
 
@@ -54,7 +56,6 @@ Milestone 3: Implement the game logic in class SolitaireGame(class with the main
 Milestone 4: Implement graphical changes and events based on user input
 
 Milestone 5: Output message: Result of the game displayed as a victory/defeat message 
-
 
 
 Note: This repository contains a PDF Document with further details of the design specification, as well as a PowerPoint presentation providing the information in an alternate format.
