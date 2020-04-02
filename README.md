@@ -48,14 +48,22 @@ The Data Structure that will be used in this project is:
 2- Integers variable: Card Dimensions(width and height)
 3- Enum variables for Card suit, rank, and color.
 
+The classes used in the design are:
+
+1-Class Card
+2-Class Pile
+3-Class FoundationPile
+4-Class WastePile
+5-Class HandPile
+6-Class Tableau
+7-Class SolitaireGame
+
+Milestone1: Initialize GUI class, assemble library images and other prerequisites
+
 
 Milestone 2: Implement classes Card, Pile, FoundationPile, WastePile, HandPile, and Tableau
 
 Milestone 3: Implement the game logic in class SolitaireGame(class with the main method)
 
 Milestone 4: Implement graphical changes and events based on user input
-
-Milestone 5: Output message: Result of the game displayed as a victory/defeat message 
-
-
-Note: This repository contains a PDF Document with further details of the design specification, as well as a PowerPoint presentation providing the information in an alternate format.
+Note: The repository contains a PDF Document with details of the design specification, as well as a PowerPoint presentation providing the information in an alternate format.
