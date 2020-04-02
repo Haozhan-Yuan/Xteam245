@@ -51,6 +51,8 @@ The Data Structure that will be used in this project is:
 The classes used in the design are:
 
 1-Class Card
+	Represents the main class of the program.
+	It will contain: Variables of card dimensions(xlocation, ylocation), card suit, color, and rank.
 2-Class Pile
 3-Class FoundationPile
 4-Class WastePile
@@ -58,8 +60,8 @@ The classes used in the design are:
 6-Class Tableau
 7-Class SolitaireGame
 
-Milestone1: Initialize GUI class, assemble library images and other prerequisites
 
+Milestone1: Initialize GUI class, assemble library images and other prerequisites
 
 Milestone 2: Implement classes Card, Pile, FoundationPile, WastePile, HandPile, and Tableau
 
