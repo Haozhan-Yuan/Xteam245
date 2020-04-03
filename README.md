@@ -56,18 +56,27 @@ The classes used in the design are:
 2-Class Pile
 	Every pile will be represented using a stack ADT
 	PileNode will be inner class to represent every stack node
-
+3-Class FoundationPile
+	Class extended from class Pile
+	Represents the foundation pile at the top of the playing surface
+	The pile will be built in suit from 1 to king
 4-Class WastePile
+	Represents and contains the waste pile
+	Has method moveAllToHandPile() to move all cards to handPile
 5-Class HandPile
+	Contains Hand Pile
+	Has draw method 
+	Check if a card moved to any foundation pile
 6-Class Tableau
+	Contains Tableau Pile
+	Some cards are face up and others are face down
 7-Class SolitaireGame
+	Represents and run the game
+	Main method to randomly distribute cards over the piles
+	Two important methods: draw() to draw the entire game and reset() to reinitialize the game
 
 
 Milestone1: Initialize GUI class, assemble library images and other prerequisites
 
 Milestone 2: Implement classes Card, Pile, FoundationPile, WastePile, HandPile, and Tableau
 
-Milestone 3: Implement the game logic in class SolitaireGame(class with the main method)
-
-Milestone 4: Implement graphical changes and events based on user input
-Note: The repository contains a PDF Document with details of the design specification, as well as a PowerPoint presentation providing the information in an alternate format.
