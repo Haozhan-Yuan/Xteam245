@@ -54,7 +54,9 @@ The classes used in the design are:
 	Represents the main class of the program.
 	It will contain: Variables of card dimensions(xlocation, ylocation), card suit, color, and rank.
 2-Class Pile
-3-Class FoundationPile
+	Every pile will be represented using a stack ADT
+	PileNode will be inner class to represent every stack node
+
 4-Class WastePile
 5-Class HandPile
 6-Class Tableau
